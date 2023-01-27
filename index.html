@@ -5,8 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+
+    <select name="" id="" class="modele"></select>
+
+    <table class="newShoes">
+        <caption>Shoes information</caption>
+
+        <div class="newPantof">
+            <h1 class="shoes">Shoes nou</h1>
+            <div>
+                <label for="model">Model</label>
+                <input type="text" name="" id="model">
+                <label for="material">Material</label>
+                <input type="text" name="" id="material">
+                <label for="culoare">Culoare</label>
+                <input type="text" name="" id="culoare">
+                <label for="pret">Pret</label>
+                <input type="text" name="" id="pret">
+
+                <button class="shoes">AddShoes</button>
+
+
+            </div>
+
+        </div>
+
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Model</th>
+                <th scope="col">Material</th>
+                <th scope="col">Culoare</th>
+                <th scope="col">Pret</th>
+            </tr>
+        </thead>
+
+        <tbody class="container"></tbody>
+        
+    </table> 
+
+    <script src="api.js"></script>
+    <script src="functions.js"></script>
+    <script src="app.js"></script>
     
 </body>
 </html>
